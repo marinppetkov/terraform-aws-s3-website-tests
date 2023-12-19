@@ -5,6 +5,11 @@ terraform {
       version = "~> 5.16.0"
     }
   }
-
+  # cloud {
+  #   organization = "TFC-marin-tests"
+  #   workspaces {
+  #     name = "learn-terraform-variables"
+  #   }
+  # }
   required_version = "~> 1.2"
 }
